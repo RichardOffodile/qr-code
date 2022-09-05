@@ -1,0 +1,56 @@
+body{
+background-color:aquamarine;
+}
+main{
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.container{
+ background-color:white;
+ height:350px;
+ width:200px;
+ padding:10px;
+ border-radius:10px;
+ transition: width 2s;
+}
+container:hover{
+width:300px;
+padding:20px;
+}
+img{
+border-radius:10px;
+width:200px;
+}
+p{
+ color:gold;
+ text-align: center;
+}
+h5{
+color:black;
+text-align:center;
+font-style:Bernard MT Condensed;
+}
+button{
+background-color:red;
+border:none;
+color:white;
+border-radius:5px;
+}
+button:hover{
+background-color:purple;
+padding:7px;
+}
+@media screen and (max-width: 480px){
+ body{
+background-color: aquamarine;
+}
+.container{
+      display:block;
+      background-color:gold:   
+}
+p{
+   color:blue;
+}
+}
+
